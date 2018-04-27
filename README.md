@@ -3,13 +3,42 @@ Exame vaga Front-End
 
 Caro desenvolvedor, o objetivo deste exame é conhecer um pouco mais sobre suas habilidades de programação. Aqui, na Edools, valorizamos muito a excelência, o código com boa qualidade nos faz trabalhar melhor e mais felizes :) e aumentar nossa capacidade de oferecer valor ao cliente com rapidez e consistência. Com isso em mente, queremos saber como você escreve seu código.
 
-A tarefa é simples: brincar com a API Github. Você terá que desenvolver uma aplicação que consumirá alguns recursos públicos da Github através de sua API (https://developer.github.com/), e presente de forma simples, mas bem estruturada. Aqui estão algumas sugestões sobre o que você pode fazer:
+A tarefa é simples: brincar com a API da Edools. Você terá que desenvolver uma aplicação que consumirá alguns recursos da nossa API (https://core.myedools.info/). O que deve ser feito:
 
-- Lista de repositórios
-- Repositórios de filtros
-- Liste os problemas dentro da visualização do repositório
-- Crie um comentário ao visualizar um problema
-- ...
+- Listar todas os aplicativos dísponíveis para a escola.
+  
+  Utilize o endpoint GET para trazer todas os aplicativos que existem na Edools
+  https://core.myedools.info/features
+
+- Exibir se o aplicativo na escola corrente está ativo ou não
+
+  Utilize o endpoint GET para trazer todas as features que estão atreladas a escola
+  https://core.myedools.info/schools/:school_id/school_features
+
+- Ativar um aplicativo
+  
+  Utilize o endpoint PUT para ativar uma feature na escola
+  https://core.myedools.info/school_features/:id/activate
+
+- Desativar um aplicativo
+  
+  Utilize o endpoint PUT para desativar uma feature na escola
+  https://core.myedools.info/school_features/:id/deactivate
+  
+Para conseguir realizar as chamadas na API, você vai precisar saber as seguintes informações:
+
+- Todas as request precisam ter um token de autorização no header
+  
+  Ex: `$ curl -H 'Authorization: Token token="CREDENTIALS"`
+
+- Esse é um token criado para essa vaga
+
+  Token token="06a8e7ebfe3cb1c6d316edfc87a274ab:c42214a737df45d82aa274247841204d"
+  
+- Esse é o ID da escola utilizado para o teste dessa vaga
+
+  ID: 64
+
 
 Para começar, basta fazer o fork deste repositório, implementar e, em seguida, abrir um novo pull request, listando os recursos no README que você desenvolveu e como executá-lo.
 
