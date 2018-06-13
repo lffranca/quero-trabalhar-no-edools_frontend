@@ -1,6 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
+const { CheckerPlugin } = require('awesome-typescript-loader')
 
 module.exports = {
   entry: './src/index.js',
@@ -10,6 +11,7 @@ module.exports = {
     filename: 'app.js'
   },
   plugins: [
+    new CheckerPlugin(),
     new HtmlWebpackPlugin(),
     new CopyWebpackPlugin([{
       from: './src/assets/*',

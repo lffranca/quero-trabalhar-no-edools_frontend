@@ -2,6 +2,60 @@
 # yarn lockfile v1
 
 
+"@angular/animations@^6.0.3":
+  version "6.0.4"
+  resolved "https://registry.yarnpkg.com/@angular/animations/-/animations-6.0.4.tgz#4e22612e8fed3193983d985c748514a03404bd96"
+  dependencies:
+    tslib "^1.9.0"
+
+"@angular/common@^6.0.3":
+  version "6.0.4"
+  resolved "https://registry.yarnpkg.com/@angular/common/-/common-6.0.4.tgz#e3d194a1bb1e143044774488d610437a982179fa"
+  dependencies:
+    tslib "^1.9.0"
+
+"@angular/compiler@^6.0.3":
+  version "6.0.4"
+  resolved "https://registry.yarnpkg.com/@angular/compiler/-/compiler-6.0.4.tgz#86d3adc2c915ee98aa8e00c542c2ef1c09f9c61f"
+  dependencies:
+    tslib "^1.9.0"
+
+"@angular/core@^6.0.3":
+  version "6.0.4"
+  resolved "https://registry.yarnpkg.com/@angular/core/-/core-6.0.4.tgz#80b19624493126b6c7e3a180a33dee92c84b4bd6"
+  dependencies:
+    tslib "^1.9.0"
+
+"@angular/forms@^6.0.3":
+  version "6.0.4"
+  resolved "https://registry.yarnpkg.com/@angular/forms/-/forms-6.0.4.tgz#abc5ea355b5261c49f111366f41a812aa9d3d1d3"
+  dependencies:
+    tslib "^1.9.0"
+
+"@angular/http@^6.0.3":
+  version "6.0.4"
+  resolved "https://registry.yarnpkg.com/@angular/http/-/http-6.0.4.tgz#5598c6eec895014da9242c22236af2757ae9fef1"
+  dependencies:
+    tslib "^1.9.0"
+
+"@angular/platform-browser-dynamic@^6.0.3":
+  version "6.0.4"
+  resolved "https://registry.yarnpkg.com/@angular/platform-browser-dynamic/-/platform-browser-dynamic-6.0.4.tgz#3b86f6b826d45418520da583eb8ba0526f62a4bb"
+  dependencies:
+    tslib "^1.9.0"
+
+"@angular/platform-browser@^6.0.3":
+  version "6.0.4"
+  resolved "https://registry.yarnpkg.com/@angular/platform-browser/-/platform-browser-6.0.4.tgz#3a86890324fd9de37df8d7195fcedf4145eefb3b"
+  dependencies:
+    tslib "^1.9.0"
+
+"@angular/router@^6.0.3":
+  version "6.0.4"
+  resolved "https://registry.yarnpkg.com/@angular/router/-/router-6.0.4.tgz#81c96dfa42a8c4a218cbd450b1e8959a76ea9595"
+  dependencies:
+    tslib "^1.9.0"
+
 "@webassemblyjs/ast@1.5.12":
   version "1.5.12"
   resolved "https://registry.yarnpkg.com/@webassemblyjs/ast/-/ast-1.5.12.tgz#a9acbcb3f25333c4edfa1fdf3186b1ccf64e6664"
@@ -1610,7 +1664,7 @@ core-js@^1.0.0:
   version "1.2.7"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-1.2.7.tgz#652294c14651db28fa93bd2d5ff2983a4f08c636"
 
-core-js@^2.4.0, core-js@^2.5.0:
+core-js@^2.4.0, core-js@^2.5.0, core-js@^2.5.4:
   version "2.5.7"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.5.7.tgz#f972608ff0cead68b841a16a932d0b183791814e"
 
@@ -5027,7 +5081,7 @@ run-queue@^1.0.0, run-queue@^1.0.3:
   dependencies:
     aproba "^1.1.1"
 
-rxjs@^6.1.0:
+rxjs@^6.0.0, rxjs@^6.1.0:
   version "6.2.1"
   resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-6.2.1.tgz#246cebec189a6cbc143a3ef9f62d6f4c91813ca1"
   dependencies:
@@ -6163,3 +6217,7 @@ yargs@^7.0.0:
     which-module "^1.0.0"
     y18n "^3.2.1"
     yargs-parser "^5.0.0"
+
+zone.js@^0.8.26:
+  version "0.8.26"
+  resolved "https://registry.yarnpkg.com/zone.js/-/zone.js-0.8.26.tgz#7bdd72f7668c5a7ad6b118148b4ea39c59d08d2d"
